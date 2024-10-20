@@ -8,10 +8,12 @@
 <body>
 <h2 id="product-name"> Tote Bags </h2>
 <p id="product-price">$10</p>
+<p id="inventory-count"></p>
+
 <select id="size-selector">
-<option value="10">Small - $10</option>
-<option value="15">Medium - $15</option>
-<option value="20">Large - $20</option>
+        <option value="small" data-stock="5">Small - In Stock</option>
+        <option value="medium" data-stock="8">Medium - Out of Stock</option>
+        <option value="large" data-stock="3">Large - In Stock</option>
 </select>
 <button id="Purchase-product">Purchase Tote Bag</button>
 <script src="product-pricing.js"></script>
